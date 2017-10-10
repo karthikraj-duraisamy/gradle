@@ -160,7 +160,7 @@ public interface ModuleDependency extends Dependency {
      * Returns whether this dependency is optional.
      *
      * @see #setOptional(boolean)
-     * @since 4.3
+     * @since 4.4
      */
     @Incubating
     boolean isOptional();
@@ -173,7 +173,7 @@ public interface ModuleDependency extends Dependency {
      * @param optional Whether this dependency is optional.
      * @return this
      *
-     * @since 4.3
+     * @since 4.4
      */
     @Incubating
     ModuleDependency setOptional(boolean optional);
